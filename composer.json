@@ -1,0 +1,28 @@
+{
+  "name": "yuppyweb/php-dom-tree",
+  "description": "DOM tree representation as PHP objects",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksandr Vatolin",
+      "email": "yuppyweb@yandex.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PhpDomTree\\": "src/",
+      "PhpDomTree\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.2"
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
