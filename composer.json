@@ -11,8 +11,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "DOMTree\\": "src/",
-      "DOMTree\\Tests\\": "tests/"
+      "DOMTree\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DOMTree\\Test\\": "tests/"
     }
   },
   "minimum-stability": "stable",
