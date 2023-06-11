@@ -1,5 +1,5 @@
 {
-  "name": "yuppyweb/php-dom-tree",
+  "name": "yuppyweb/dom-tree",
   "description": "DOM tree representation as PHP objects",
   "type": "library",
   "license": "MIT",
@@ -11,8 +11,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "PhpDomTree\\": "src/",
-      "PhpDomTree\\Tests\\": "tests/"
+      "DOMTree\\": "src/",
+      "DOMTree\\Tests\\": "tests/"
     }
   },
   "minimum-stability": "stable",
@@ -23,6 +23,6 @@
     "phpunit/phpunit": "^10.2"
   },
   "scripts": {
-    "test": "phpunit"
+    "test": "./vendor/bin/phpunit"
   }
 }
