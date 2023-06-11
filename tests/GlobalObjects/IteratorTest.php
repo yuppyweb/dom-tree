@@ -42,10 +42,22 @@ class IteratorTest extends TestCase
     public static function iteratorDataProvider(): array
     {
         return [
-            [[], []],
-            [[1], [1]],
-            [[1, 2, 3, 5, 7], [1, 2, 3, 5, 7]],
-            [[1 => 'php', 3 => 'js', 'test' => 5], [1 => 'php', 3 => 'js', 'test' => 5]],
+            [
+                [],
+                []
+            ],
+            [
+                [1],
+                [1]
+            ],
+            [
+                [1, 2, 3, 5, 7],
+                [1, 2, 3, 5, 7]
+            ],
+            [
+                [1 => 'php', 3 => 'js', 'test' => 5],
+                [1 => 'php', 3 => 'js', 'test' => 5]
+            ],
         ];
     }
 
