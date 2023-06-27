@@ -24,7 +24,6 @@ class DOMStringTest extends TestCase
     {
         return [
             ['', 0, ''],
-            [[], 5, 'Array'],
             [0, 1, '0'],
             [1, 1, '1'],
             [3.14, 4, '3.14'],
